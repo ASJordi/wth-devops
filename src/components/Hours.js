@@ -13,13 +13,10 @@ import React from "react";
     
         ]
 
-        // get the long day name and store it in a variable called today
         const today = new Date().toLocaleDateString('en-US', { weekday: 'long' });
 
-        // get today's hours
         const todayHours = shelterHours.find((day) => day.day === today);
 
-        // display today and the hours in an div with an id of hours
         return (
             <div id="hours">
                 <h2>Today's Hours</h2>
