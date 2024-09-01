@@ -19,12 +19,13 @@ function MyApp({ Component, pageProps }) {
             Add Pet
           </Link>
         </div>
-
-        <img
-          id="title"
-          src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Pet_logo_with_flowers.png"
-          alt="pet care logo"
-        ></img>
+        <Link href="/">
+          <img
+            id="title"
+            src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Pet_logo_with_flowers.png"
+            alt="Pet care logo"
+          ></img>
+        </Link>
       </div>
       <h1>Adoption shelter</h1>
       <div className="grid wrapper">
