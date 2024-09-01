@@ -18,6 +18,9 @@ function MyApp({ Component, pageProps }) {
           <Link href="/new">
             Add Pet
           </Link>
+          <Link href="https://asjordi.dev">
+            Author
+          </Link>
         </div>
         <Link href="/">
           <img
